@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Navbar from '../components/Navbar'
 import LeadManagement from '../components/LeadManagement'
 
 function Dashboard() {
 
-    
-    const [dashboardItems, setDashboardItems] = useState([
+
+    const [dashboardItems] = useState([
         {
             title: 'Total Leads',
             amount: 50
